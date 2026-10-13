@@ -126,6 +126,15 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 ### Los cambios se pudieron fusionar automáticamente y los nuevos ficheros y modificaciones pasaron a formar parte de la rama principal.
 
+## Eliminación de la rama primera
+
+Una vez fusionados los cambios con la rama principal, eliminé la rama
+primera mediante el siguiente comando:
+
+```bash
+git branch -d primera
+```
+![captura](images1/Eliminacion%20de%20la%20rama%20primera.png)
 ## 7. Creación de un conflicto
 
 ### Para comprobar cómo funcionan los conflictos, se realizó una segunda prueba.

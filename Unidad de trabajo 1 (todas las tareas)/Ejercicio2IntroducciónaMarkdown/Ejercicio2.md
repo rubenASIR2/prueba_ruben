@@ -3,13 +3,18 @@
 # Rubén Marcos Cuadrado Ugbomah
 
 <!--Un subtítulo-->
-Esto es un subtitulo de ejemplo, para la tarea.
+## Esto es un subtitulo de ejemplo, para la tarea.
 
 <!--Un párrafo, con palabras en negrita, en cursiva, en código (por ejemplo esto está escrito en código)-->
 
 **Esto es un texto en negrita ejemplo para la tarea**
 _Esto es un texto en cursiva_
+Este es un párrafo con **texto en negrita**, _texto en cursiva_ y una palabra en `código`.
 <!--Un trozo de código-->
+```bash
+mkdir images
+echo "Hola mundo" > archivo1.txt
+```
 <!--Una lista ordenada-->
 1. Lista ordenada 1
 2. Lista ordenada 2
@@ -29,7 +34,7 @@ _Esto es un texto en cursiva_
 [Google.com](https://www.google.es)
 
 <!--Un enlace a otro documento Markdown que tengas en el repositorio -->
-[Enlace] (https://github.com/rubenASIR2/prueba_ruben/blob/master/Unidad%20de%20trabajo%201%20(todas%20las%20tareas)/Ejercicio%202%20Introducci%C3%B3n%20a%20Markdown/README.md)
+[Enlace] (https://github.com/rubenASIR2/github.io.iaw/blob/gh-pages/actividad1_1/Ejercicio2Introducci%C3%B3naMarkdown/README.md)
 
 <!--Antes crea el documento -->
 <!--Una imagen. Antes crea en el repositorio un directorio llamado images e incluye dentro la imagen-->
