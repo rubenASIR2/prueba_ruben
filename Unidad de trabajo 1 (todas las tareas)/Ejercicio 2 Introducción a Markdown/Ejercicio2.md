@@ -29,7 +29,7 @@ _Esto es un texto en cursiva_
 [Google.com](https://www.google.es)
 
 <!--Un enlace a otro documento Markdown que tengas en el repositorio -->
-[Documento de presentacion readme] (https://github.com/rubenASIR2/rubenASIR2/blob/master/README.md)
+[Enlace]
 
 <!--Antes crea el documento -->
 <!--Una imagen. Antes crea en el repositorio un directorio llamado images e incluye dentro la imagen-->
