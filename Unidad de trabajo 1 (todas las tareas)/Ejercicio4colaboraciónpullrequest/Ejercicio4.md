@@ -10,6 +10,7 @@
 ### Lo que vamos a realizar
 
 *Realizaremos un pull request a este repositorio para solicitar un par de cambios*
+*En mi repositorio local he creado cosas para yo tenerlas, pero luego meteré todo en el sito correspondiente*
 * Deberemos cambiar el fichero README.md para añadir un enlace a la lista, donde ponga nuestras iniciales.
 * Que vaya al fichero que vamos a crear en el directorio files. A continuación creamos el directorio file y el README que se llama RMCU.
 * ![Captura1](images/Creación%20del%20directorio%20files.png)
@@ -17,7 +18,9 @@
 * ![Captura2](images/Creación%20del%20markdown%20RMCU.md.png)
 * En el markdown responderemos y a las siguientes preguntas ¿Quienes somos?. ¿Qué asignatura nos gusta más? y ¿Porqué? (debermos utilizar al menos 5 marcas distintas de markdown)
 * ![Captura3](images/Archivorcmu.png)
-* Ahora realizaremos un fork del repositorio prueba-pr-iaw, y nos traemos el repositorio a nuestra cuenta, y por ultimo lo clonamos, y realizamos los cambios especificados en el enunciado.
+* Ahora realizaremos un fork del repositorio prueba-pr-iaw, y nos traemos el repositorio a nuestra cuenta, y por ultimo lo clonamos, y realizamos los cambios especificados en el enunciado.(es decir nuestra carpeta files se sobrescribira con la existente, pasamos el rmcu al repositorio del profesor prueba iaw, y realizaremos el pull request, para que este acepte los cambios)
 * ![Captura4](images/Fork.png)
 * ![Captura5](images/repositoriopruebaiaw202627ennuestracuenta.png)
+* Para la clonación utilizaremos el siguiente código
+* `git clone https://TU_USUARIO:TU_TOKEN@github.com/USUARIO/REPOSITORIO.git`
 * Realizaremos el pull request y esperaremos a que sea aceptado por el profesor, al final del ejercicio deberemos con un git pull origin main sincronizar nuestro repositorio para que tengamos todos los ficheros de todos los ficheros de los compañeros.
