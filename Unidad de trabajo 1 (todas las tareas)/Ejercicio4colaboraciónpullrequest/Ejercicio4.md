@@ -21,7 +21,7 @@
 * ![Captura3](images/Archivorcmu.png)
 * Versión mejorada
 * ![Captura3.3](images/Archivorcmu.version2.0png.png)
-* Ahora realizaremos un fork del repositorio prueba-pr-iaw, y nos traemos el repositorio a nuestra cuenta, y por ultimo lo clonamos, y realizamos los cambios especificados en el enunciado.(es decir nuestra carpeta files se sobrescribira con la existente, pasamos el rmcu al repositorio del profesor prueba iaw, y realizaremos el pull request, para que este acepte los cambios)
+* Ahora realizaremos un fork del repositorio prueba-pr-iaw, y nos traemos el repositorio a nuestra cuenta, y por ultimo lo clonamos, y realizamos los cambios especificados en el enunciado.(es decir,tendremos que meter nuestro markdownen files,al repositorio del profesor (prueba iaw), y realizaremos el pull request, para que este acepte los cambios que queremos realizar sobre el repositorio, todo como colaboradores)
 * ![Captura4](images/Fork.png)
 * ![Captura5](images/repositoriopruebaiaw202627ennuestracuenta.png)
 * Para la clonación utilizaremos el siguiente código(y nos llevamos el repositorio para trabajar localmente con el)
