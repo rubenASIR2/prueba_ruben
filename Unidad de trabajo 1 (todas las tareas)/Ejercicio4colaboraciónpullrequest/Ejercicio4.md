@@ -30,4 +30,18 @@
 * Ahora lo que hacemos es incluir nuestro archivo en el repositorio, en la carpeta files, y luego en el readme creamos un enlace.
 * ![Captura7](images/rmcuenpriaw202627.png)
 * ![Captura8](images/Modificaciónreadmepriawparaincluirnuestroarchivo.png)
-* Realizaremos el pull request y esperaremos a que sea aceptado por el profesor, al final del ejercicio deberemos con un git pull origin main sincronizar nuestro repositorio para que tengamos todos los ficheros de todos los ficheros de los compañeros.
+* por ultimo guardaremos los cambios, git add, git commit , git push(desde la terminal)
+* ![Captura9](images/Gitstatusgitaddgitcommitgitpushoriginmainprueba-pr-iaw_202627.png)
+* ![Captura10](images/Gitpushoriginmainconnuestroarchivo.png)
+* Luego en nuestro repositorio clonado,comprobaremos que se encuentran los cambios hechos
+* ![Captura11](images/Comprobacionrepositorio.png)
+* ![Captura12](images/Comprobacionrepositorio2.png)
+* ![Captura13](images/Comprobacionrepositorio3.png)
+* Realizaremos el pull request y esperaremos a que sea aceptado por el profesor
+* A continuación se muestran capturas de todo el proceso
+* ![Captura14](images/pullrequest1.png)
+* ![Captura15](images/pullrequest2.png)
+* ![Captura16](images/Pullrequest3.png)
+* ![Captura17](images/Pullrequest4.png)
+* ![Captura18](images/Pullrequest5.png)
+* ![Captura19](images/Pullrequestimagenfinal.png)
