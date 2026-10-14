@@ -27,21 +27,43 @@
 * Para la clonación utilizaremos el siguiente código(y nos llevamos el repositorio para trabajar localmente con el)
 * `git clone https://TU_USUARIO:TU_TOKEN@github.com/USUARIO/REPOSITORIO.git`
 * ![Captura6](images/Clonacióndelrepositoriodeiaw202627.png)
-* Ahora lo que hacemos es incluir nuestro archivo en el repositorio, en la carpeta files, y luego en el readme creamos un enlace.
-* ![Captura7](images/rmcuenpriaw202627.png)
-* ![Captura8](images/Modificaciónreadmepriawparaincluirnuestroarchivo.png)
-* por ultimo guardaremos los cambios, git add, git commit , git push(desde la terminal)
-* ![Captura9](images/Gitstatusgitaddgitcommitgitpushoriginmainprueba-pr-iaw_202627.png)
-* ![Captura10](images/Gitpushoriginmainconnuestroarchivo.png)
-* Luego en nuestro repositorio clonado,comprobaremos que se encuentran los cambios hechos
-* ![Captura11](images/Comprobacionrepositorio.png)
-* ![Captura12](images/Comprobacionrepositorio2.png)
-* ![Captura13](images/Comprobacionrepositorio3.png)
-* Realizaremos el pull request y esperaremos a que sea aceptado por el profesor
-* A continuación se muestran capturas de todo el proceso
-* ![Captura14](images/pullrequest1.png)
-* ![Captura15](images/pullrequest2.png)
-* ![Captura16](images/Pullrequest3.png)
-* ![Captura17](images/Pullrequest4.png)
-* ![Captura18](images/Pullrequest5.png)
-* ![Captura19](images/Pullrequestimagenfinal.png)
+### Creación de una nueva rama de trabajo
+
+Para realizar el Pull Request, creé una nueva rama llamada `ejercicio4-rmcu` en mi repositorio local. De esta manera, puedo trabajar con una rama independiente de `main` y utilizarla para solicitar que el profesor incorpore mis cambios al repositorio original.
+
+En primer lugar, me situé en la rama principal de mi repositorio:
+
+```bash
+git switch main
+```
+* ![Captura7](images/Gitswitchmain.png)
+A continuación, creé la nueva rama y cambié a ella mediante el siguiente comando:
+
+```bash
+git switch -c ejercicio4-rmcu
+```
+
+Para comprobar que la rama se había creado correctamente, ejecuté:
+
+```bash
+git branch
+```
+* ![Captura8](images/Creacionnuevarama.png)
+
+Ahora a continuación pasamos el archivo rcmu a la carpeta iaw202627, e incluimos nuestro enlace.
+* ![Captura9](images/pasamoselrmcualpriaw.png)
+* ![Captura10](images/Enlaceenfilesrmcu.png)
+
+Después, subí la nueva rama a mi repositorio remoto de GitHub:
+
+```bash
+git add
+git commit -m "subida del request a rama ejercicio4-rmcu)
+git push -u origin ejercicio4-rmcu
+```
+* ![Captura11](images/gitaddgitcommitgitpushejercicio4-rmcu.png)
+* ![Captura12](images/gitpushoriginejercicio4-rmcu.png)
+* *Con estos pasos, la rama `ejercicio4-rmcu` quedó disponible en GitHub para realizar el Pull Request*
+* *A continuación muestro el estado final de pull request* 
+* ![Captura13](images/pullrequest.png)
+* ![Captura14](images/pullrequest2.png)
