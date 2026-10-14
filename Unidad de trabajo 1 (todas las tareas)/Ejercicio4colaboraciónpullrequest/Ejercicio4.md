@@ -17,4 +17,7 @@
 * ![Captura2](images/Creación%20del%20markdown%20RMCU.md.png)
 * En el markdown responderemos y a las siguientes preguntas ¿Quienes somos?. ¿Qué asignatura nos gusta más? y ¿Porqué? (debermos utilizar al menos 5 marcas distintas de markdown)
 * ![Captura3](images/Archivorcmu.png)
+* Ahora realizaremos un fork del repositorio prueba-pr-iaw, y nos traemos el repositorio a nuestra cuenta, y por ultimo lo clonamos, y realizamos los cambios especificados en el enunciado.
+* ![Captura4](images/Fork.png)
+* ![Captura5](images/repositoriopruebaiaw202627ennuestracuenta.png)
 * Realizaremos el pull request y esperaremos a que sea aceptado por el profesor, al final del ejercicio deberemos con un git pull origin main sincronizar nuestro repositorio para que tengamos todos los ficheros de todos los ficheros de los compañeros.
