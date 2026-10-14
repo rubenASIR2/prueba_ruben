@@ -15,7 +15,7 @@
 * Deberemos cambiar el fichero README.md para añadir un enlace a la lista, donde ponga nuestras iniciales.
 * Que vaya al fichero que vamos a crear en el directorio files. A continuación creamos el directorio file y el README que se llama RMCU.
 * ![Captura1](images/Creación%20del%20directorio%20files.png)
-* Crearemos un fichero en el direcotorio files, que se llame RMCU.md.
+* Crearemos un fichero en el directorio files, que se llame RMCU.md.
 * ![Captura2](images/Creación%20del%20markdown%20RMCU.md.png)
 * En el markdown responderemos y a las siguientes preguntas ¿Quienes somos?. ¿Qué asignatura nos gusta más? y ¿Porqué? (debermos utilizar al menos 5 marcas distintas de markdown)
 * ![Captura3](images/Archivorcmu.png)
