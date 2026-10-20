@@ -15,7 +15,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 * main
 
-* ![captura](images1/Primeraimagenbranch.png)
+* ![captura](images1/1.%20Comprobación%20de%20las%20ramas%20existentes.png)
 
 ### La rama main es la rama principal del proyecto y contiene el estado principal del repositorio.
 
@@ -53,7 +53,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * main
 * primera
 
-![captura](images1/3.%20Cambio%20de%20rama.png)
+![captura](images1/3.%20Cambio%20a%20la%20rama%20primera.png)
 
 ### Esto confirmó que el trabajo se estaba realizando ahora en la rama primera.
 
@@ -89,7 +89,8 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 ### Esto permitió comprobar que las ramas funcionan como líneas independientes de desarrollo.
  
- ![captura](images1/4.%20Cambios%20realizados%20en%20la%20rama%20primera.png)
+ ![captura](images1/3.%20Cambio%20a%20la%20rama%20primera.png)
+ ![captura](images1/4.%20Realización%20de%20cambios%20en%20la%20rama%20primera.png)
 
 
 ## 5. Subida de la rama a GitHub
@@ -121,8 +122,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 ### En este caso, no se produjo ningún conflicto, ya que los cambios realizados en la rama primera no modificaban la misma parte de un fichero que hubiese sido modificada en main.
 
-![Captura](images1/Fusion%20ramas%206..png)
-![Captura](images1/Git%20merge%20primera%20sin%20confilcto.png)
+![Captura](images1/5.%20Fusion%20de%20la%20rama%20primera%20con%20main.png)
 
 ### Los cambios se pudieron fusionar automáticamente y los nuevos ficheros y modificaciones pasaron a formar parte de la rama principal.
 
@@ -134,7 +134,7 @@ primera mediante el siguiente comando:
 ```bash
 git branch -d primera
 ```
-![captura](images1/Eliminacion%20de%20la%20rama%20primera.png)
+![captura](images1/6.%20Eliminación%20de%20la%20rama%20primera.png)
 ## 7. Creación de un conflicto
 
 ### Para comprobar cómo funcionan los conflictos, se realizó una segunda prueba.
@@ -143,28 +143,26 @@ git branch -d primera
 
 * git checkout main
 
-![Captura](images1/7.%20captura%20uno%20git%20checkout%20main.png)
 
 ### Después de crear el fichero, se añadieron los cambios y se realizó un commit:
 
 * git add prueba.txt
 *git commit -m "Creación del fichero prueba.txt"
 
-![Captura](images1/gitaddprueba.txt+commit.png)
+![Captura](images1/7.%20Creacion%20del%20conflictoCreación%20prueba.txt,add,commit%20en%20main.png)
 
 ### A continuación, se creó una nueva rama llamada segunda:
 
 * git branch segunda
 * git checkout segunda
 
-![Captura](images1/7.%20Captura%20numero%20tres%20.png)
+![Captura](images1/8.Creación%20de%20la%20rama%20segunda%20y%20modificación%20del%20fichero%20prueba.txt%20y%20comprobación.png)
 
 ### En esta rama se modificó el contenido de prueba.txt y se realizó un commit:
 
 * git add prueba.txt
 * git commit -m "Modificación de prueba.txt en segunda"
 
-![Captura](images1/7.%20Captura%20numero%20cuatro.png)
 
 
 ### Después, se volvió a la rama principal:
@@ -177,12 +175,12 @@ git branch -d primera
 * git add prueba.txt
 * git commit -m "Modificación de prueba.txt en main"
 
-![Captura](images1/Modifcación%20deprueba.txtenmain.png)
+![Captura](images1/9.%20Modificación%20del%20fichero%20de%20prueba.txt%20desde%20main%20para%20provocar%20el%20conflicto.png)
 
 ### Finalmente, se intentó fusionar la rama segunda con main:
 
 * git merge segunda
-
+![Captura](images1/10.%20Intento%20de%20fusionar%20la%20rama%20segunda%20con%20main,%20conflicto%20conseguido.png)
 
 ### En este momento Git detectó un conflicto porque se había modificado la misma parte del fichero en las dos ramas.
 
@@ -202,6 +200,8 @@ La parte situada entre ======= y >>>>>>> segunda corresponde a los cambios reali
 
 Estas marcas son añadidas automáticamente por Git para indicar las dos versiones que están entrando en conflicto.
 
+![Captura](images1/11.%20Correción%20del%20conflicto%20en%20prueba.txt(sudonano).png)
+![Captura](images1/12.%20Contenido%20del%20fichero.txt%20conflicto%20sin%20resolver%20todavía.png)
 ## 9. Solución del conflicto
 
 ### Para solucionar el conflicto, se abrió el fichero prueba.txt y se decidió qué contenido debía mantenerse.
@@ -211,6 +211,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 <<<<<<< HEAD
 =======
 >>>>>>> segunda
+![Captura](images1/13.%20Contenido%20del%20fichero.txt%20conflicto%20solucionado%20marcas%20borradas.png)
 
 ### Una vez solucionado el conflicto, se añadió el fichero:
 
@@ -220,7 +221,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 * git commit -m "Solución del conflicto en prueba.txt"
 
-* ![Captura](images1/image-2.png)
+* ![Captura](images1/14.%20Solución%20del%20conflicto%20(git%20commit%20m).png)
 
 ### De esta manera, el conflicto quedó solucionado y las dos ramas pudieron quedar fusionadas correctamente.
 
@@ -228,8 +229,8 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
-* git push -u origin segunda
-* ![Captura](images1/image-3.png)
+* git push origin segunda
+* ![Captura](images1/)
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
 
