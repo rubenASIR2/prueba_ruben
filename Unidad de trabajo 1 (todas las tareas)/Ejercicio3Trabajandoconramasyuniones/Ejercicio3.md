@@ -93,22 +93,8 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
  ![captura](images1/4.%20Realización%20de%20cambios%20en%20la%20rama%20primera.png)
 
 
-## 5. Subida de la rama a GitHub
 
-### Las ramas creadas localmente no aparecen automáticamente en el repositorio remoto de GitHub. Para subir la rama primera, se utilizó:
-
-* git push origin primera
-
-### En este comando, origin hace referencia al repositorio remoto de GitHub.
-
-### Después de realizar el push, la rama primera quedó disponible también en el repositorio remoto.
-
-### Captura de pantalla:
-
- 
- ![captura](images1/5.%20Git%20push%20rama%20primera.png)
-
-## 6. Fusión de la rama primera con main
+## 5. Fusión de la rama primera con main
 
 ### Una vez realizados los cambios, se procedió a unir la rama primera con la rama principal.
 
@@ -135,7 +121,7 @@ primera mediante el siguiente comando:
 git branch -d primera
 ```
 ![captura](images1/6.%20Eliminación%20de%20la%20rama%20primera.png)
-## 7. Creación de un conflicto
+## 6. Creación de un conflicto
 
 ### Para comprobar cómo funcionan los conflictos, se realizó una segunda prueba.
 
@@ -184,7 +170,7 @@ git branch -d primera
 
 ### En este momento Git detectó un conflicto porque se había modificado la misma parte del fichero en las dos ramas.
 
-## 8. Contenido del fichero con el conflicto
+## 7. Contenido del fichero con el conflicto
 
 * Al producirse el conflicto, el fichero prueba.txt mostraba unas marcas similares a las siguientes:
 
@@ -202,7 +188,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 ![Captura](images1/11.%20Correción%20del%20conflicto%20en%20prueba.txt(sudonano).png)
 ![Captura](images1/12.%20Contenido%20del%20fichero.txt%20conflicto%20sin%20resolver%20todavía.png)
-## 9. Solución del conflicto
+## 8. Solución del conflicto
 
 ### Para solucionar el conflicto, se abrió el fichero prueba.txt y se decidió qué contenido debía mantenerse.
 
@@ -225,7 +211,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 ### De esta manera, el conflicto quedó solucionado y las dos ramas pudieron quedar fusionadas correctamente.
 
-## 10. Subida de la rama segunda a GitHub
+## 9. Subida de la rama segunda a GitHub
 
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
