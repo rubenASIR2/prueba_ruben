@@ -216,9 +216,11 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
 * git push origin segunda
-* ![Captura](images1/)
+* ![Captura](images1/gitpushoriginsegunda.png)
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
+
+![Captura](images1/Subidaderamasegunda.png)
 
 
 ## Conclusión
