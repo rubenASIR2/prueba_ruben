@@ -121,3 +121,4 @@ Para ello, ejecutaremos el siguiente comando:
 git pull origin main
 ```
 ![Captura19](images/Nos%20traemos%20todos%20los%20cambios%20al%20repositorio%20local.png)
+![Captura20](images/Archivos%20de%20los%20compañeros%20en%20el%20repositorio%20local.png)
