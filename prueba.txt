@@ -1,3 +1,7 @@
 esto es un fichero de prueba
+
 modificación fichero de prueba
 nueva modificación en prueba.txt desde main
+
+esto es una prueba para comprobar
+ segunda
