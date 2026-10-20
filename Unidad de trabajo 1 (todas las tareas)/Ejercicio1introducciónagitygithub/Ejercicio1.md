@@ -6,13 +6,17 @@
 
 
 
-<!--Vamos a crear un nuevo repositorio llamado prueba2_tu_nombre.-->
-## Creación de un repositorio llamado prueba2_ruben_2
+<!-- Vamos a crear un nuevo repositorio llamado prueba2_tu_nombre. -->
 
-#### En primer lugar, nos dirigiremos al github, y nos iremos a la pestaña, para crear nuevos repositorios, a continuación crearemos uno con el nombre correspondiente.
+## Creación de un repositorio llamado `prueba2_ruben`
 
-**A continuación adjunto las capturas de pantalla correspondientes**
+En primer lugar, accederemos a [GitHub](https://github.com/) y nos dirigiremos a la opción **New repository** para crear un nuevo repositorio.
 
+A continuación, introduciremos el nombre correspondiente, `prueba2_ruben`, y configuraremos el repositorio según las indicaciones de la actividad.
+
+### Capturas de pantalla
+
+A continuación, se adjuntan las capturas de pantalla correspondientes al proceso de creación del repositorio.
 ![Captura1](images/Captura1-Creaciónrepositoriogithub.png)
 ![Captura2](images/Captura2-Creaciónrepositoriogithub.png)
 
@@ -25,22 +29,38 @@
 ### Seguiremos los siguientes pasos:
 * creamos el repositorio local, con el mismo nombre que el remoto (prueba2_ruben)
 * mkdir prueba2_ruben (el comando mkdir para crear directorios)
+
 * ![Captura1](images/Creacionrepositorio-mkdirprueba2_ruben.png)
+
 * creamos los ficheros archivo1.txt y archivo2.txt, mediante el comando echo.
+
 * ![Captura1](images/Creacion%20repositorio-Creacion%20de%20los%20ficheros.txt.png)
+
 * git init (iniciaremos el repositorio)
+
 * ![Captura1](images/Creacionrespositorio-inicializar%20el%20repositorio%20git%20init.png)
+
 * git add . (añadiremos archivo1.txt y archivo2.txt)
+
 * ![Captura1](images/Creacionrepositorio-gitadd%20y%20gitstatus.png)
 * git commit -m "añadir archivo1 y archivo2"
+
 * ![Captura1](images/Creacionrepositorio-gitcommitarchivos.png)
+
 * git branch -M main (Cambiamos el nombre de la rama a main)
+
 * ![Captura1](images/Creacionrepositorio-cambiodelaramaamain.png)
+
 * git remote add origin  git remote add origin https://USERNAME:TOKEN@github.com//REPO.git  
+
 * ![Captura1](images/Creacionrepositorio-Agregarconexionremota.png)
+
 * git push origin main
+
 * ![Captura1](images/Captura-Creaciónrepositoriogitpushoriginmain.png)
+
 * Comprobación en el repositorio remoto
+
 * ![Captura1](images/Captura-Comprobacionrepositorioremoto.png)
 
 <!-- Clona el repositorio remoto en tu máquina virtual Linux Debian (usando git clone). -->
@@ -99,6 +119,7 @@ Después de configurar Git, se procedió a clonar el repositorio remoto en la m�
 2. En primer lugar, se modificó uno de los archivos existentes en el repositorio. Además, se creó un tercer archivo de texto llamado archivo3.txt.
 ![Captura1](images/Creacionarchivo3.txt,%20en%20el%20repositoriowindows.png)
 
+
 3. Después de realizar los cambios, se añadieron los archivos modificados al área de preparación de Git mediante el comando:
 
 git add .
@@ -117,10 +138,28 @@ git push
 
 ![Captura1](images/Gitpushoriginmainarchivo3.txt.png)
 
+*Pequeña intrusión correción,de este apartado*
+
+![Captura1](images/Modificación%20de%20archivo.png)
+
 6. Finalmente, para actualizar la versión local del repositorio en la máquina virtual Linux Debian 12, se ejecutó el siguiente comando:
 
 git pull
 
+7. De esta forma, los cambios realizados desde Windows quedaron disponibles también en la máquina virtual Linux Debian 12, manteniendo actualizada la versión local del repositorio.
+
 ![Captura1](images/Gitpull%20y%20obtencion%20del%20archivo3.txt%20en%20la%20maquina%20debian.png)
 
-7. De esta forma, los cambios realizados desde Windows quedaron disponibles también en la máquina virtual Linux Debian 12, manteniendo actualizada la versión local del repositorio.
+
+## Actualización del repositorio local mediante un segundo `git pull`
+
+A continuación, realizaremos un segundo `git pull origin main` para obtener e integrar en nuestro repositorio local los últimos cambios disponibles en la rama `main` del repositorio remoto.
+
+En este caso, podremos comprobar cómo se incorpora la modificación realizada en el archivo correspondiente, manteniendo así nuestro repositorio local actualizado.
+
+### Captura de pantalla
+
+A continuación, se adjunta la captura de pantalla en la que se muestra la ejecución del segundo `git pull` y la actualización del archivo con los cambios recibidos.
+
+![Captura1](images/Git%20pull%20origin%20main%20archivo%20modificado.png)
+![Captura1](images/gitpullfinal.png)
