@@ -34,7 +34,7 @@ echo "Hola mundo" > archivo1.txt
 [Google.com](https://www.google.es)
 
 <!--Un enlace a otro documento Markdown que tengas en el repositorio -->
-[Enlace] (https://github.com/rubenASIR2/github.io.iaw/blob/gh-pages/actividad1_1/Ejercicio2Introducci%C3%B3naMarkdown/README.md)
+[Enlace](README.md)
 
 <!--Antes crea el documento -->
 <!--Una imagen. Antes crea en el repositorio un directorio llamado images e incluye dentro la imagen-->
